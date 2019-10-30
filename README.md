@@ -4,9 +4,11 @@
 
 Node.js 13 is not an LTS release, because of that, it is not recommended to use it in production.
 
-## Deploy to Google Cloud Run
+## Deploy to Cloud Run
 
-Use the buttom above, or the following steps:
+[Cloud Run](https://cloud.run) allows you to run your Node.js 13 app in a fully managed serverless environment.
+
+To deploy to Cloud Run, use the buttom above, or the following steps:
 
 * Build with `gcloud builds submit --tag gcr.io/[your-project]/node13`
 * Deploy with `gcloud beta run deploy --image gcr.io/[your-project]/node13`
