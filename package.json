@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Simple hello world sample in Node.js 13",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js"
   },
@@ -11,7 +12,7 @@
   "dependencies": {
     "express": "^4.16.4"
   },
-  "engines" : {
-      "node" : ">=13"
+  "engines": {
+    "node": ">=13"
   }
 }
