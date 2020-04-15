@@ -1,4 +1,6 @@
-const express = require('express');
+// Node 13 allows unflagged ES modules
+import express from 'express';
+
 const app = express();
 
 app.get('/', (req, res) => {

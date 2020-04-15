@@ -11,7 +11,7 @@ Node.js 13 is not an LTS release, because of that, it is not recommended to use 
 To deploy to Cloud Run, use the buttom above, or the following steps:
 
 * Build with `gcloud builds submit --tag gcr.io/[your-project]/node13`
-* Deploy with `gcloud beta run deploy --image gcr.io/[your-project]/node13`
+* Deploy with `gcloud run deploy --image gcr.io/[your-project]/node13`
 
 Replacing `[your-project]` with your Google Cloud project ID.
 
