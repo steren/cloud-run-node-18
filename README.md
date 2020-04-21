@@ -2,8 +2,6 @@
 
 [![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run)
 
-Node.js 14 is not yet in active Long-term support (LTS), it is not recommended to use it in production yet.
-
 ## Deploy to Cloud Run
 
 [Cloud Run](https://cloud.run) allows you to run your Node.js 14 app in a fully managed environment.
@@ -20,3 +18,9 @@ Replacing `[your-project]` with your Google Cloud project ID.
 * Build with `docker build . -t node14`
 * Start with `docker run -p 8080:8080 node14`
 * Open in your browser at `http://localhost:8080`
+
+## Disclaimer
+
+Node.js 14 is not yet in active Long-term support (LTS), it is not recommended to use it in production yet.
+
+This is not an official Google product.
