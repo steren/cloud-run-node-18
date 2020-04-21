@@ -1,5 +1,7 @@
 # Node.js 14 on Google Cloud Run
 
+Node.js brings support for ES modules and better internationalization, read more on the [official blog post](https://medium.com/@nodejs/node-js-version-14-available-now-8170d384567e).
+
 [![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run)
 
 ## Deploy to Cloud Run
