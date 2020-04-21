@@ -1,4 +1,4 @@
-FROM node:13-slim
+FROM node:14-slim
 WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install --only=production

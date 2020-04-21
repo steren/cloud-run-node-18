@@ -1,7 +1,7 @@
 {
-  "name": "cloud-run-node-13",
+  "name": "cloud-run-node-14",
   "version": "1.0.0",
-  "description": "Simple hello world sample in Node.js 13",
+  "description": "Simple hello world sample in Node.js 14",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -13,6 +13,6 @@
     "express": "^4.16.4"
   },
   "engines": {
-    "node": ">=13"
+    "node": ">=14"
   }
 }
