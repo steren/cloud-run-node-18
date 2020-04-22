@@ -2,9 +2,11 @@
 
 Node.js 14 brings support for ES modules, optional chaining and better internationalization, read more on the [official blog post](https://medium.com/@nodejs/node-js-version-14-available-now-8170d384567e).
 
+## Deploy to Cloud Run with a single click
+
 [![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run)
 
-## Deploy to Cloud Run
+## Deploy to Cloud Run using your CLI
 
 [Cloud Run](https://cloud.run) allows you to run your Node.js 14 app in a fully managed environment.
 
