@@ -10,10 +10,7 @@ Node.js 14 brings support for ES modules, optional chaining and better internati
 
 ## Deploy to Cloud Run using the `gcloud` command line
 
-* Build with `gcloud builds submit --tag gcr.io/[your-project]/node14`
-* Deploy with `gcloud run deploy --image gcr.io/[your-project]/node14`
-
-Replacing `[your-project]` with your Google Cloud project ID.
+Run `gcloud run deploy` in the root folder.
 
 ## Running locally
 
