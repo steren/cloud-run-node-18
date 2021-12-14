@@ -1,8 +1,8 @@
-# Node.js 14 on Google Cloud Run
+# Node.js 16 on Google Cloud Run
 
-Node.js 14 brings support for ES modules, optional chaining and better internationalization, read more on the [official blog post](https://medium.com/@nodejs/node-js-version-14-available-now-8170d384567e).
+Node.js 16 brings support for ES modules, optional chaining and better internationalization, read more on the [official blog post](https://medium.com/@nodejs/node-js-version-16-available-now-8170d384567e).
 
-[Cloud Run](https://cloud.run) allows you to run your Node.js 14 app in a fully managed environment.
+[Cloud Run](https://cloud.run) allows you to run your Node.js 16 app in a fully managed environment.
 
 ## Deploy to Cloud Run with a single click
 
@@ -14,13 +14,9 @@ Run `gcloud run deploy` in the root folder.
 
 ## Running locally
 
-* Build with `docker build . -t node14`
-* Start with `docker run -p 8080:8080 node14`
+* Build with `docker build . -t node16`
+* Start with `docker run -p 8080:8080 node16`
 * Open in your browser at `http://localhost:8080`
-
-## Disclaimer
-
-Node.js 14 is not yet in active Long-term support (LTS), it is not recommended to use it in production yet.
 
 This is not an official Google product.
 

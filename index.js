@@ -1,11 +1,11 @@
-// Node 14 allows unflagged ES modules
+// Node 16 allows unflagged ES modules
 import express from 'express';
 
 const app = express();
 
 app.get('/', (req, res) => {
 
-  // Node.js 14 has better internationalization built in
+  // Node.js 16 has better internationalization built in
   // Read more at https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl
   const french = new Intl.DateTimeFormat('fr', { weekday: 'long' });
 
