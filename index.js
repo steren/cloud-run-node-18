@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
   const french = new Intl.DateTimeFormat('fr', { weekday: 'long' });
 
   res.send(
-    `Hello Node.js ${process.version}.
+    `Bonjour Node.js ${process.version}.
     Aujourd'hui nous sommes ${french.format(new Date())}`
   );
 });
