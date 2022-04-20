@@ -1,4 +1,4 @@
-# Node.js 16 on Google Cloud Run
+# Node.js 18 on Google Cloud Run
 
 Node.js 16 brings support for ES modules, optional chaining and better internationalization, read more on the [official blog post](https://medium.com/@nodejs/node-js-version-16-available-now-8170d384567e).
 
