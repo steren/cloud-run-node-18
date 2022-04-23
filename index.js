@@ -2,7 +2,7 @@ import express from 'express';
 
 const app = express();
 
-app.get('/', (req, res) => {
+app.get('/', async (req, res) => {
   const french = new Intl.DateTimeFormat('fr', { weekday: 'long' });
 
   // see https://www.weather.gov/documentation/services-web-api
