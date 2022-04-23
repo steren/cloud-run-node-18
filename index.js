@@ -19,5 +19,5 @@ app.get('/', async (req, res) => {
 
 const port = process.env.PORT || 8080;
 app.listen(port, () => {
-  console.log('Hello world listening on port', port);
+  console.log('Node.js demo is listening on port', port);
 });
