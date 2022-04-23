@@ -10,11 +10,9 @@ app.get('/', async (req, res) => {
   const weatherData = await response.json();
 
   res.send(
-    `Congrats, you're running  Node.js ${process.version}.
-
-    Thanks to Intl, it's easy to format dates: "Aujourd'hui nous sommes ${french.format(new Date())}".
-    
-    Thanks to fetch, we can get the weather forcast for San Francisco: ${weatherData?.properties?.periods[0]?.detailedForecast}.
+    `Congrats, you're running  Node.js ${process.version}.\n\n
+    Thanks to Intl, it's easy to format dates: "Aujourd'hui nous sommes ${french.format(new Date())}".\n
+    Thanks to fetch, we can get the weather forecast for San Francisco: ${weatherData?.properties?.periods[0]?.detailedForecast}.\n
     `
   );
 });
