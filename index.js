@@ -5,9 +5,17 @@ const app = express();
 app.get('/', (req, res) => {
   const french = new Intl.DateTimeFormat('fr', { weekday: 'long' });
 
+  // see https://www.weather.gov/documentation/services-web-api
+  const res = await fetch('https://api.weather.gov/gridpoints/MTR/85,105/forecast');
+  const weatherData = await res.json();
+
   res.send(
-    `Bonjour Node.js ${process.version}.
-    Aujourd'hui nous sommes ${french.format(new Date())}`
+    `Congrats, you're running  Node.js ${process.version}.
+
+    Thanks to Intl, it's easy to format dates: "Aujourd'hui nous sommes ${french.format(new Date())}".
+    
+    Thanks to fetch, we can get the weather forcast for San Francisco: ${weatherData.properties.periods[0]?.detailedForecast}.
+    `
   );
 });
 
